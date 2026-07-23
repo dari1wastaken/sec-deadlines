@@ -1,6 +1,10 @@
 filter1:
   - name: Security
     tag: SEC
+  - name: Networks
+    tag: NET
+  - name: Malware, CyberCrime, CTI
+    tag: MWR
   - name: Privacy
     tag: PRIV
   - name: Crypto
@@ -29,3 +33,8 @@ filter3:
     tag: CORE-C
   - name: National/Unranked
     tag: OTHERS
+
+# This is to check the ones that were not in the original project repo, and to remind that they might need to be updated manually
+filter4:
+  - name: Not Updated
+  - tag: NOTUP
