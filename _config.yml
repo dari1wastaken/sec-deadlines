@@ -5,10 +5,8 @@ author: Bogdan Kulynych
 domain: "dari1wastaken.github.io"
 baseurl: "/sec-deadlines"
 
-twitter_username: hiddenmarkov
-github_username: sec-deadlines
+github_username: dari1wastaken
 github_repo: sec-deadlines
 ga_id: UA-104921371-1
 
 markdown: kramdown
-
