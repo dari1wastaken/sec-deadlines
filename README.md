@@ -2,6 +2,22 @@
 
 Based on [ai-deadlines](https://aideadlin.es) by @abshkdz
 
+## Run
+
+Locally
+```
+bundle install
+bundle exec jekyll serve
+```
+
+Hosted: edit `domain` and `baseurl` in `_config.yml` 
+
+## TODOs
+
+- [ ] sigcomm and workshops, conext
+- [ ] more filters (e.g. malware, agentic-ai)
+- [ ] OPT make filtering exclusive if two are specified + reduce to one category per entry
+
 ## Is my entry in scope?
 
 This page is meant to host academic conference or workshop deadlines.

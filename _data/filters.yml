@@ -13,6 +13,8 @@ filter2:
     tag: SHOP
   - name: Journals
     tag: JRN
+  - name: Industry
+    tag: IND
 
 filter3:
   - name: Security Top-4
