@@ -12,6 +12,34 @@ bundle exec jekyll serve
 
 Hosted: edit `domain` and `baseurl` in `_config.yml` 
 
+## Researching manually tracked conferences
+
+Entries tagged `NOTUP` can be checked against current official sources with a
+subscription-authenticated Codex or Claude Code CLI:
+
+```bash
+python3 scripts/research_notup.py _data/conferences.yml \
+  --output _data/conferences.researched.yml \
+  --provider codex
+```
+
+Use the same input and output path to update the file in place. The replacement
+is atomic and happens only after every selected result passes validation:
+
+```bash
+python3 scripts/research_notup.py _data/conferences.yml \
+  --output _data/conferences.yml
+```
+
+`--provider` accepts `codex` (the default) or `claude`; `--model` selects a
+specific provider model. `--limit N` is useful for testing a small number of
+entries. Progress, decisions, and source URLs are written to `OUTPUT.log` by
+default and echoed to the terminal; use `--log PATH` to choose another log file.
+Each provider is run non-interactively with web research enabled. New
+editions are added next to the prior edition and inherit all its tags, including
+`NOTUP`. Existing editions are changed only when every changed field has an
+HTTP(S) source in the provider's structured result.
+
 
 ## TODOs
 
