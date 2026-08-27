@@ -5,5 +5,3 @@ sd-conferences.yaml
 .env
 __pycache__/
 *.back
-
-updated-*
