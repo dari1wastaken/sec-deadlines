@@ -17,6 +17,10 @@ Hosted: edit `domain` and `baseurl` in `_config.yml`
 
 - [ ] OPT make filtering exclusive if two are specified + reduce to one category per entry
 - [ ] Add other deadlines: Shadow TPCs, PhD symposiums, other non-academic conferences (ONE Conference, BSides)
+- [ ] add https://www.ieee-security.org/TC/EuroSP2026/workshops.html
+- [ ] add calls for posters
+- [ ] add TMA
+- [ ] IDEA: add funding application deadlines
 
 ## Adding/updating a conference
 
