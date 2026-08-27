@@ -1,12 +1,12 @@
 - name: Botconf
   year: 2027
-  date: April 14-17
+  date: April 27-30
   description: The Botnet & Malware Ecosystems Fighting Conference
   link: https://www.botconf.eu/
   deadline:
-  - 2027-01-01 23:59
+  - 2027-01-03 12:00
   comment: Talk abstract submission.
-  place: Bruges, France
+  place: Vannes, France
   tags:
   - SEC
   - IND
@@ -88,6 +88,20 @@
   comment: Abstract registration required (1 week before deadline AoE).
   date: May 4-6
   place: Renton, WA, USA
+  tags:
+  - SEC
+  - NET
+  - CONF
+  - ASTAR
+  - TOP4
+  - NOTUP
+- name: NSDI
+  year: 2028
+  date: May 9-11
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/conferences/byname/178
+  dblp: https://dblp.org/db/conf/nsdi/index.html
+  place: Santa Clara, CA, USA
   tags:
   - SEC
   - NET
@@ -206,6 +220,18 @@
   comment: Registration required (1 week before deadline AoE).
   date: August 17-21
   place: Denver, CO, USA
+  tags:
+  - NET
+  - CONF
+  - CORE-A
+  - NOTUP
+- name: SIGCOMM
+  year: 2027
+  date: August 8-12
+  description: Annual conference of the ACM Special Interest Group on Data Communication
+  link: https://conferences.sigcomm.org/sigcomm/2027/
+  dblp: https://dblp.org/db/conf/sigcomm/index.html
+  place: Bangkok, Thailand
   tags:
   - NET
   - CONF
@@ -598,7 +624,7 @@
   dblp: https://dblp.org/db/conf/conext/index.html
   deadline:
   - 2026-09-18 23:59
-  date: December 7-10
+  date: December 7
   place: Utrecht, The Netherlands
   tags:
   - NET
@@ -622,11 +648,11 @@
   - CORE-A
   - NOTUP
 - name: NetNeg
-  comment: Co-located with CoNEXT 2026
+  comment: Co-located with ACM SIGCOMM 2026
   description: ACM Workshop on Negative Results in Network Measurements
   year: 2026
   link: https://conferences.sigcomm.org/sigcomm/2026/netneg/
-  dblp: https://dblp.org/db/conf/sigcomm/index.html
+  dblp: https://dblp.org/db/conf/sigcomm/sigcomm2026.html
   deadline:
   - 2026-05-20 23:59
   date: August 17
