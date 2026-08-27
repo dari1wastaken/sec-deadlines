@@ -1,495 +1,638 @@
-# Industry-related IND
 - name: Botconf
   year: 2027
   date: April 14-17
   description: The Botnet & Malware Ecosystems Fighting Conference
   link: https://www.botconf.eu/
   deadline:
-    - "2027-01-01 23:59"
+  - 2027-01-01 23:59
   comment: Talk abstract submission.
   place: Bruges, France
-  tags: [SEC, IND, OTHERS, NOTUP]
-
+  tags:
+  - SEC
+  - IND
+  - OTHERS
+  - NOTUP
 - name: Honeynet
   year: 2027
   date: June 2-4
   description: The Honeynet Project Workshop
   link: https://honeynet.org/workshops
   deadline:
-    - "2027-04-22 23:59"
+  - 2027-04-22 23:59
   comment: Talk abstract submission.
   place: Delft, Netherlands
-  tags: [SEC, IND, OTHERS, NOTUP]
-
-# Security and Privacy
-
+  tags:
+  - SEC
+  - IND
+  - OTHERS
+  - NOTUP
 - name: S&P (Oakland)
   year: 2027
-  date: TBA
+  date: May 17-20
   description: IEEE Symposium on Security and Privacy
   link: https://sp2027.ieee-security.org/
   dblp: https://dblp.org/db/conf/sp/index.html
   deadline:
-    - "2026-06-11 23:59"
-    - "2026-11-17 23:59"
+  - 2026-06-11 23:59
+  - 2026-11-17 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   place: Montreal, Canada
-  tags: [SEC, PRIV, CONF, ASTAR, TOP4]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - ASTAR
+  - TOP4
 - name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2026
   link: https://www.sigsac.org/ccs/CCS2026
   dblp: https://dblp.org/db/conf/ccs/index.html
   deadline:
-    - "2026-01-14 23:59"
-    - "2026-04-29 23:59"
+  - 2026-01-14 23:59
+  - 2026-04-29 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   date: November 15-19
   place: The Hague, The Netherlands
-  tags: [SEC, PRIV, CONF, ASTAR, TOP4]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - ASTAR
+  - TOP4
 - name: USENIX Security
   description: USENIX Security Symposium
   year: 2027
   link: https://www.usenix.org/conference/usenixsecurity27
   dblp: https://dblp.org/db/conf/uss/index.html
   deadline:
-    - "2026-08-25 23:59"
-    - "2027-01-26 23:59"
+  - 2026-08-25 23:59
+  - 2027-01-26 23:59
   comment: Abstract registration required (1 week before deadline AoE).
-  date: "August 11-13"
+  date: August 11-13
   place: Denver, CO, USA
-  tags: [SEC, PRIV, CONF, ASTAR, TOP4]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - ASTAR
+  - TOP4
 - name: NSDI
   description: USENIX Symposium on Networked Systems Design and Implementation
   year: 2026
   link: https://www.usenix.org/conference/nsdi26/
   dblp: https://dblp.org/db/conf/nsdi/index.html
   deadline:
-    - "2025-04-25 23:59"
-    - "2025-09-18 23:59"
+  - 2025-04-25 23:59
+  - 2025-09-18 23:59
   comment: Abstract registration required (1 week before deadline AoE).
-  date: "May 4-6"
+  date: May 4-6
   place: Renton, WA, USA
-  tags: [SEC, NET, CONF, ASTAR, TOP4, NOTUP]
-
+  tags:
+  - SEC
+  - NET
+  - CONF
+  - ASTAR
+  - TOP4
+  - NOTUP
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
   year: 2027
   link: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
   dblp: https://dblp.org/db/conf/ndss/index.html
   deadline:
-    - "2026-05-06 23:59"
-    - "2026-08-19 23:59"
-  date: "March 22-26"
+  - 2026-05-06 23:59
+  - 2026-08-19 23:59
+  date: March 22-26
   place: Seoul, Republic of Korea
-  tags: [SEC, PRIV, NET, CONF, ASTAR, TOP4]
-
+  tags:
+  - SEC
+  - PRIV
+  - NET
+  - CONF
+  - ASTAR
+  - TOP4
 - name: ESORICS
   description: European Symposium on Research in Computer Security
   year: 2026
   link: https://sites.google.com/di.uniroma1.it/esorics2026/
   dblp: https://dblp.org/db/conf/esorics/index.html
   deadline:
-    - "2026-01-09 23:59"
-    - "2026-04-21 23:59"
-  date: "September 14-18"
+  - 2026-01-09 23:59
+  - 2026-04-21 23:59
+  date: September 14-18
   place: Rome, Italy
-  tags: [SEC, PRIV, CONF, CORE-A]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
 - name: ASIA CCS
   description: ACM Asia Conference on Computer and Communications Security
   year: 2027
   link: https://asiaccs2027.cityu.edu.mo/home/index.html
   dblp: https://dblp.org/db/conf/asiaccs/index.html
   deadline:
-    - "2026-08-21 23:59"
-    - "2026-12-11 23:59"
-  date: "July 12-16"
+  - 2026-08-21 23:59
+  - 2026-12-11 23:59
+  date: July 12-16
   place: Macau
-  tags: [SEC, PRIV, CONF, CORE-A]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
 - name: Euro S&P
   description: IEEE European Symposium on Security and Privacy
   year: 2026
   comment: Abstract registration required (1 week before deadline AoE).
   link: https://eurosp2026.ieee-security.org/
   dblp: https://dblp.org/db/conf/eurosp/index.html
-  deadline: ["2025-11-20 23:59"]
-  date: "July 6 - 10"
+  deadline:
+  - 2025-11-20 23:59
+  date: July 6 - 10
   place: Lisbon, Portugal
-  tags: [SEC, PRIV, CONF, CORE-A]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-A
 - name: IFIP SEC
   description: IFIP International Information Security and Privacy Conference
   year: 2026
   link: https://ifipsec.org/cfp.html
   dblp: https://dblp.org/db/conf/sec/index.html
-  deadline: ["2025-12-19 23:59"]
+  deadline:
+  - 2025-12-19 23:59
   date: June 9 - 11
   place: Perth, Australia
-  tags: [SEC, CONF, CORE-B]
-
+  tags:
+  - SEC
+  - CONF
+  - CORE-B
 - name: RAID
   description: International Symposium on Research in Attacks, Intrusions and Defenses
   year: 2026
   link: https://raid2026.org
   dblp: https://dblp.org/db/conf/raid/index.html
-  deadline: ["2026-04-16 23:59"]
+  deadline:
+  - 2026-04-16 23:59
   date: October 11-14
   place: Lancaster, UK
-  tags: [SEC, CONF, CORE-A]
-
+  tags:
+  - SEC
+  - CONF
+  - CORE-A
 - name: ACSAC
   description: Annual Computer Security Applications Conference
   year: 2026
   link: https://www.acsac.org/2026/submissions/papers/
   dblp: https://dblp.org/db/conf/acsac/index.html
-  deadline: ["2026-05-26 23:59"]
+  deadline:
+  - 2026-05-26 23:59
   date: Dec 7-11
   place: Los Angeles, CA, USA
-  tags: [SEC, CONF, CORE-A]
-
-# Networks and systems, applications
-
+  tags:
+  - SEC
+  - CONF
+  - CORE-A
 - name: SIGCOMM
-  description: Annual conference of the ACM Special Interest Group on Data Communication 
+  description: Annual conference of the ACM Special Interest Group on Data Communication
   year: 2026
   link: https://conferences.sigcomm.org/sigcomm/2026/
   dblp: https://dblp.org/db/conf/sigcomm/index.html
-  deadline: ["2026-02-06 23:59"]
+  deadline:
+  - 2026-02-06 23:59
   comment: Registration required (1 week before deadline AoE).
   date: August 17-21
   place: Denver, CO, USA
-  tags: [NET, CONF, CORE-A, NOTUP]
-
+  tags:
+  - NET
+  - CONF
+  - CORE-A
+  - NOTUP
 - name: CoNEXT
   description: International Conference on emerging Networking EXperiments and Technologies
   year: 2026
   link: https://conferences.sigcomm.org/co-next/2026/
   dblp: https://dblp.org/db/conf/conext/index.html
-  deadline: ["2026-12-02 23:59"]
+  deadline:
+  - 2026-12-02 23:59
   comment: Registration required (1 week before deadline AoE).
   date: December 7-10
   place: Utrecht, The Netherlands
-  tags: [NET, CONF, CORE-A, NOTUP]
-
+  tags:
+  - NET
+  - CONF
+  - CORE-A
+  - NOTUP
 - name: DSN
   description: The International Conference on Dependable Systems and Networks
   year: 2027
   link: https://dsn2027-berlin.github.io/
   dblp: https://dblp.org/db/conf/dsn/index.html
-  deadline: ["2026-12-02 23:59"]
+  deadline:
+  - 2026-12-02 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   date: June 22-25
   place: Berlin, Germany
-  tags: [SEC, NET, CONF, CORE-A]
-
+  tags:
+  - SEC
+  - NET
+  - CONF
+  - CORE-A
 - name: ACNS
   description: International Conference on Applied Cryptography and Network Security
   year: 2027
   link: https://acns2027.isg.rhul.ac.uk/
   dblp: https://dblp.org/db/conf/acns/index.html
   deadline:
-    - "2026-09-24 23:59"
-    - "2027-01-21 23:59"
+  - 2026-09-24 23:59
+  - 2027-01-21 23:59
   date: June 28 - July 1
   place: Egham, Surrey, UK
-  tags: [CRYPTO, NET, SEC, CONF, CORE-B]
-
+  tags:
+  - CRYPTO
+  - NET
+  - SEC
+  - CONF
+  - CORE-B
 - name: DIMVA
   description: The Conference on Detection of Intrusions and Malware & Vulnerability Assessment
   year: 2026
   link: https://www.dimva.org/dimva2026/
   dblp: https://dblp.org/db/conf/dimva/index.html
   deadline:
-    - "2025-12-03 23:59"
-    - "2026-02-11 23:59"
+  - 2025-12-03 23:59
+  - 2026-02-11 23:59
   date: July 01-03
   place: Chania, Greece
-  tags: [SEC, MWR, CONF, CORE-B]
-
+  tags:
+  - SEC
+  - MWR
+  - CONF
+  - CORE-B
 - name: ARES
   description: International Conference on Availability, Reliability and Security
   year: 2026
   link: https://www.ares-conference.eu/
   dblp: https://dblp.org/db/conf/IEEEares/index.html
-  deadline: ["2026-03-09 23:59"]
-  note: "Abstract registration deadline March 2, 2026."
+  deadline:
+  - 2026-03-09 23:59
+  note: Abstract registration deadline March 2, 2026.
   date: August 24–27
   place: Linköping, Sweden
-  tags: [SEC, PRIV, CONF, CORE-B]
-
+  tags:
+  - SEC
+  - PRIV
+  - CONF
+  - CORE-B
 - name: WWW
   description: The ACM Web Conference
   year: 2027
   link: https://acmweb2027.org/
   dblp: https://dblp.org/db/conf/www/index.html
-  deadline: ["2026-10-18 23:59"]
+  deadline:
+  - 2026-10-18 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   date: May 10-14
   place: Dublin, Ireland
-  tags: [NET, CONF, PRIV, ASTAR]
-
+  tags:
+  - NET
+  - CONF
+  - PRIV
+  - ASTAR
 - name: eCrime
   year: 2026
   date: November 2-6
   description: The Symposium on Electronic Crime Research
   dblp: https://dblp.org/db/conf/ecrime/index.html
   link: https://apwg.org/events/ecrime2026
-  deadline: ["2026-05-30 23:59"]
+  deadline:
+  - 2026-05-30 23:59
   place: Lisbon, Portugal
-  tags: [SEC, MWR, CONF, OTHERS]
-
+  tags:
+  - SEC
+  - MWR
+  - CONF
+  - OTHERS
 - name: IMC
   year: 2027
   description: ACM Internet Measurement Conference
   link: https://conferences.sigcomm.org/imc/2027/
   dblp: https://dblp.org/db/conf/imc/index.html
   deadline:
-    - "2026-11-01 23:59"
-    - "2027-04-29 23:59"
+  - 2026-11-01 23:59
+  - 2027-04-29 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   date: October 12-16
   place: Atlanta, Georgia
-  tags: [NET, CONF, CORE-A]
-
+  tags:
+  - NET
+  - CONF
+  - CORE-A
 - name: PAM
   year: 2026
-  date: "March 23-25"
+  date: March 23-25
   description: Passive and Active Measurement Conference
   dblp: https://dblp.org/db/conf/pam/index.html
   link: https://pam2026.at/
-  deadline: ["2025-10-08 23:59"]
+  deadline:
+  - 2025-10-08 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   place: Virtual
-  tags: [NET, CONF, CORE-B]
-
+  tags:
+  - NET
+  - CONF
+  - CORE-B
 - name: IMC
   year: 2026
   description: ACM Internet Measurement Conference
   link: https://conferences.sigcomm.org/imc/2026/
   dblp: https://dblp.org/db/conf/imc/index.html
   deadline:
-    - "2025-11-20 23:59"
-    - "2026-04-29 23:59"
+  - 2025-11-20 23:59
+  - 2026-04-29 23:59
   comment: Abstract registration required (1 week before deadline AoE).
-  date: October 12-16
+  date: November 3-6
   place: Karlsruhe, Germany
-  tags: [NET, CONF, CORE-A]
-
-
-# Workshops
-
-
+  tags:
+  - NET
+  - CONF
+  - CORE-A
 - name: ANUBIS
   description: Assessment with New methodologies, Unified Benchmarks, and environments, of Intrusion detection and response Systems
   year: 2026
   link: https://superviz.inria.fr/anubis26/
   deadline:
-    - "2026-07-07 23:59"
+  - 2026-07-07 23:59
   comment: Co-located with ESORICS 2026.
   date: September 18
   place: Rome, Italy
-  tags: [SEC, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
 - name: WoRMA
   description: Workshop on Rethinking Malware Analysis
   year: 2025
   link: https://worma.gitlab.io/2025/
-  deadline: ["2025-02-20 23:59"]
+  deadline:
+  - 2025-02-20 23:59
   date: June 30
   comment: Co-located with IEEE Euro S&P
   place: Venice, Italy
-  tags: [SEC, MWR, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
 - name: CNS
   description: IEEE Conference on Communications and Network Security
   year: 2026
   link: https://cns2026.ieee-cns.org/
-  deadline: ["2026-05-18 23:59"]
+  deadline:
+  - 2026-05-18 23:59
   date: September 14 - 17
   place: Newark, DE, USA
-  tags: [SEC, NET, PRIV, CONF]
-
+  tags:
+  - SEC
+  - NET
+  - PRIV
+  - CONF
 - name: MADWeb
   description: Workshop on Measurements, Attacks, and Defenses for the Web
   year: 2026
   link: https://madweb.work/
   comment: Co-located with NDSS Symposium
   deadline:
-    - "2025-12-11 23:59"
+  - 2025-12-11 23:59
   date: February 27
   place: San Diego, California, USA
-  tags: [SEC, NET, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - NET
+  - SHOP
+  - OTHERS
 - name: WOSOC
   description: Workshop on SOC Operations and Construction
   year: 2026
   link: https://www.ndss-symposium.org/ndss2026/submissions/cfp-wosoc/
   comment: Co-located with NDSS Symposium
   deadline:
-    - "2025-12-22 23:59"
+  - 2025-12-22 23:59
   date: February 23
   place: San Diego, California, USA
-  tags: [SEC, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
 - name: WOOT
   description: USENIX WOOT Conference on Offensive Technologies
   year: 2026
   link: https://www.usenix.org/conference/woot26/call-for-papers
   comment: Co-located with USENIX Security; up-and-coming track deadline is Mar 3 (cycle-2)
-  deadline: 
-    - "2025-12-12 23:59"
-    - "2026-03-03 23:59"
+  deadline:
+  - 2025-12-12 23:59
+  - 2026-03-03 23:59
   date: August 10–11
   place: Baltimore, MD, USA
-  tags: [SEC, CONF]
-
+  tags:
+  - SEC
+  - CONF
 - name: MALIoT
   description: Malicious Software and Hardware in Internet of Things
   year: 2026
   link: https://security.ucc.ie/mal-iot2026/
-  deadline: ["2026-02-13 23:59"]
+  deadline:
+  - 2026-02-13 23:59
   comment: Co-located with ACM International Conference on Computing Frontiers 2026
   date: May 19
   place: Catania, Italy
-  tags: [SEC, MWR, SHOP, OTHERS]
-
-
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
 - name: CyberHunt
   description: Workshop on Cyber Threat Intelligence and Hunting
   year: 2024
   link: https://cyberhunt2024.cyberhunt.no/
-  deadline: ["2024-10-01 23:59"]
+  deadline:
+  - 2024-10-01 23:59
   comment: Co-located with IEEE BigData 2024
   date: December 15-18
   place: Washington DC, USA
-  tags: [SEC, MWR, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
 - name: WACCO
   description: Workshop on Attackers and Cyber-Crime Operations
   year: 2026
   link: https://wacco-workshop.org/
-  deadline: ["2026-03-22 23:59"]
+  deadline:
+  - 2026-03-22 23:59
   date: July 6
   comment: Co-located with IEEE Euro S&P
   place: Venezia, Italy
-  tags: [SEC, MWR]
-
+  tags:
+  - SEC
+  - MWR
 - name: WAITI
   description: Workshop on AI for Cyber Threat Intelligence
   year: 2026
   link: https://waiti-workshop.github.io/
-  deadline: ["2026-10-05 23:59"]
+  deadline:
+  - 2026-10-05 23:59
   comment: Co-located with ACSAC 2026
   date: December 7
   place: Los Angeles, California, USA
-  tags: [SEC, MWR, SHOP, OTHERS]
-
-
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
 - name: GRASEC
   description: International Workshop on Graph-based Approaches for CyberSecurity
   year: 2026
   link: https://www.ares-conference.eu/grasec
-  deadline: ["2026-05-11 23:59"]
+  deadline:
+  - 2026-05-11 23:59
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
 - name: IWCC
   description: International Workshop on Cyber Crime
   year: 2026
   link: https://www.ares-conference.eu/iwcc
-  deadline: ["2026-05-11 23:59"]
+  deadline:
+  - 2026-05-11 23:59
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, MWR, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
 - name: AgentCy
-  description: "Workshop on Agentic AI for Cybersecurity: Offensive and Defensive Perspectives"
+  description: 'Workshop on Agentic AI for Cybersecurity: Offensive and Defensive Perspectives'
   year: 2026
   link: https://www.ares-conference.eu/agentcy
-  deadline: ["2026-05-18 23:59"]
+  deadline:
+  - 2026-05-18 23:59
   comment: Co-located with ARES
   date: August 24-27
   place: Linköping, SE
-  tags: [SEC, PRIV, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - PRIV
+  - SHOP
+  - OTHERS
 - name: ADND
   description: Workshop on Active Defense and Deception
   year: 2026
   link: https://adnd.work
-  deadline: ["2026-06-25 23:59"]
+  deadline:
+  - 2026-06-25 23:59
   date: September 18
   comment: Co-located with ESORICS 2026
   place: Rome, Italy
-  tags: [SEC, SHOP, OTHERS]
-
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
 - name: TAKEDOWN
   description: ACM Technical Analysis and Knowledge Exchange on Disrupting Online Criminal Networks
   year: 2026
   link: https://takedown-workshop.com/
-  deadline: ["2026-07-13 23:59"]
-  date: November 15
+  deadline:
+  - 2026-07-13 23:59
+  date: December 7-11
   place: The Hague, The Netherlands
-  tags: [SEC, MWR, SHOP, OTHERS]
+  tags:
+  - SEC
+  - MWR
+  - SHOP
+  - OTHERS
   comment: Co-located with CCS 2026
-
 - name: WTMC
   description: International Workshop on Traffic Measurements for Cybersecurity
   year: 2026
   link: https://wtmc.info
-  deadline: ["2026-07-13 23:59"]
+  deadline:
+  - 2026-07-13 23:59
   date: November 15
   place: The Hague, The Netherlands
-  tags: [SEC, NET, SHOP, OTHERS, NOTUP]
+  tags:
+  - SEC
+  - NET
+  - SHOP
+  - OTHERS
+  - NOTUP
   comment: Co-located with CCS 2026
-
 - name: AICyDef
   description: Workshop on Trustworthy and Secure AI for Cyber Defense
   comment: Co-located with IEEE DSC 2026
   year: 2026
   link: https://attend.ieee.org/dsc/trustworthy-secureai/
-  deadline: ["2026-07-17 23:59"]
+  deadline:
+  - 2026-07-17 23:59
   date: October 9-11, 2026
   place: New York City, USA
-  tags: [SEC, SHOP, OTHERS]
-
-
+  tags:
+  - SEC
+  - SHOP
+  - OTHERS
 - name: CoNEXT Student Workshop
   comment: Co-located with CoNEXT 2026
   description: CoNEXT Student Workshop
   year: 2026
   link: https://conferences.sigcomm.org/co-next/2026/
   dblp: https://dblp.org/db/conf/conext/index.html
-  deadline: ["2026-09-18 23:59"]
+  deadline:
+  - 2026-09-18 23:59
   date: December 7-10
   place: Utrecht, The Netherlands
-  tags: [NET, SHOP, CORE-A, NOTUP]
-
+  tags:
+  - NET
+  - SHOP
+  - CORE-A
+  - NOTUP
 - name: NTC-R
   comment: Co-located with CoNEXT 2026
-  description:  Network Traffic Classification Workshop - Reloaded
+  description: Network Traffic Classification Workshop - Reloaded
   year: 2026
   link: https://ntc-reloaded.github.io/
   dblp: https://dblp.org/db/conf/conext/index.html
-  deadline: ["2026-07-24 23:59"]
+  deadline:
+  - 2026-07-24 23:59
   date: December 7-10
   place: Utrecht, The Netherlands
-  tags: [SEC, NET, SHOP, CORE-A, NOTUP]
-
+  tags:
+  - SEC
+  - NET
+  - SHOP
+  - CORE-A
+  - NOTUP
 - name: NetNeg
   comment: Co-located with CoNEXT 2026
   description: ACM Workshop on Negative Results in Network Measurements
   year: 2026
   link: https://conferences.sigcomm.org/sigcomm/2026/netneg/
   dblp: https://dblp.org/db/conf/sigcomm/index.html
-  deadline: ["2026-05-20 23:59"]
+  deadline:
+  - 2026-05-20 23:59
   date: August 17
   place: Denver, CO, USA
-  tags: [NET, SHOP, CORE-A, NOTUP]
+  tags:
+  - NET
+  - SHOP
+  - CORE-A
+  - NOTUP

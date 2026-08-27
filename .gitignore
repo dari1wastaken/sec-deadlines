@@ -3,3 +3,4 @@ _site
 sd-conferences.yaml
 .venv/
 __pycache__/
+*.back
