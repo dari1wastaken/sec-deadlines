@@ -4,3 +4,5 @@ sd-conferences.yaml
 .venv/
 __pycache__/
 *.back
+
+updated-*
