@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Merge updates into an existing conference list.
 
-Only conferences already present in OLD_FILE are updated.  Conference identity
-is the pair (name, year), and the old value of ``tags`` is always retained.
+Conferences already present in OLD_FILE are updated by (name, year).  A newer
+year for a known conference name is added.  In both cases, ``tags`` comes from
+the relevant old entry rather than the new file.
 """
 
 from __future__ import annotations
@@ -50,10 +51,8 @@ def index_conferences(
 def merge_conferences(
     old_conferences: Sequence[Conference], new_conferences: Sequence[Conference]
 ) -> List[Conference]:
-    """Update matching old entries while retaining old order, fields, and tags."""
-    # Validate both files, including duplicate old keys.  New-only entries are
-    # intentionally left unused.
-    index_conferences(old_conferences, "old file")
+    """Update matches and add newer editions of conference names already known."""
+    old_by_key = index_conferences(old_conferences, "old file")
     new_by_key = index_conferences(new_conferences, "new file")
 
     merged: List[Conference] = []
@@ -62,6 +61,36 @@ def merge_conferences(
         update = new_by_key.get(conference_key(old_conference, "old file"))
         if update is not None:
             result.update({key: value for key, value in update.items() if key != "tags"})
+        merged.append(result)
+
+    # Add unmatched new editions in their new-file order.  When multiple old
+    # editions share a name, inherit tags from the latest edition older than
+    # the one being added.
+    for new_conference in new_conferences:
+        new_name, new_year = conference_key(new_conference, "new file")
+        if (new_name, new_year) in old_by_key:
+            continue
+        try:
+            older_editions = [
+                old
+                for old in old_conferences
+                if old["name"] == new_name and old["year"] < new_year
+            ]
+            source = max(older_editions, key=lambda conference: conference["year"])
+        except TypeError as error:
+            raise ValueError(
+                f"cannot compare years for conference {new_name!r}: {new_year!r}"
+            ) from error
+        except ValueError:
+            # An unknown name, or an edition older than all known editions, is
+            # not introduced into the maintained file.
+            continue
+
+        result = dict(new_conference)
+        if "tags" in source:
+            result["tags"] = source["tags"]
+        else:
+            result.pop("tags", None)
         merged.append(result)
     return merged
 

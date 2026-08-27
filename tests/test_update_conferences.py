@@ -50,6 +50,31 @@ class MergeConferencesTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate conference"):
             update_conferences.merge_conferences([], duplicate)
 
+    def test_adds_newer_edition_and_copies_tags_from_latest_old_edition(self):
+        old = [
+            {"name": "S&P", "year": 2025, "tags": ["OLD"]},
+            {"name": "S&P", "year": 2026, "tags": ["SEC", "TOP4"]},
+            {"name": "Other", "year": 2028, "tags": ["OTHER"]},
+        ]
+        new = [
+            {"name": "S&P", "year": 2027, "date": "May", "tags": ["WRONG"]},
+            {"name": "Unknown", "year": 2029, "tags": ["NEW"]},
+            {"name": "Other", "year": 2027, "tags": ["OLDER"]},
+        ]
+
+        merged = update_conferences.merge_conferences(old, new)
+
+        self.assertEqual(len(merged), 4)
+        self.assertEqual(
+            merged[-1],
+            {
+                "name": "S&P",
+                "year": 2027,
+                "date": "May",
+                "tags": ["SEC", "TOP4"],
+            },
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
