@@ -48,6 +48,7 @@ HTTP(S) source in the provider's structured result.
 - [x] add https://www.ieee-security.org/TC/EuroSP2026/workshops.html
 - [ ] add calls for posters (maybe just mention if a conference has a poster deadline)
 - [x] add auto way to update the NOTUP confs (might require heavy vibing / LLM scraping)
+- [ ] add FOCI workshop: https://foci.community/
 
 - [ ] Create a DBLP feed of conferences and proceedings
 
