@@ -319,7 +319,7 @@
   link: https://acmweb2027.org/
   dblp: https://dblp.org/db/conf/www/index.html
   deadline:
-  - 2026-10-18 23:59
+  - 2026-10-25 23:59
   comment: Abstract registration required (1 week before deadline AoE).
   date: May 10-14
   place: Dublin, Ireland
@@ -662,3 +662,13 @@
   - SHOP
   - CORE-A
   - NOTUP
+- name: Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2027
+  comment: Abstract registration required (1 week before deadline AoE).
+  link: https://eurosp2027.ieee-security.org/
+  dblp: https://dblp.org/db/conf/eurosp/index.html
+  deadline:
+  - 2026-12-02 23:59
+  date: July 5 - 9
+  place: Madrid, Spain
